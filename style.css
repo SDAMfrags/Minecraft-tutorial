@@ -21,4 +21,17 @@ body {
 a {
     text-decoration: none;
     color: lightgray;
+    padding: 6px;
+}
+.logo {
+    width: 24px;
+    height: 24px;
+}
+.circle {
+  border-radius: 50%;
+  background: black;
+  padding: 6px;
+}
+.section {
+  margin-bottom: 10px;
 }
