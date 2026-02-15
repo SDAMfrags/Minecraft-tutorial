@@ -39,3 +39,25 @@ a {
     width: 700px;
     margin: auto;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+    position: sticky;
+    text-decoration: none;
+    background-color: lightgray;
+    overflow: hidden;
+}
+li a {
+    float: left;
+    display: block;
+    background-color: lightgray;
+    color: #121212;
+    padding: 10px 32px;
+    border-right:1px solid gray;
+}
+li a:hover:not(.active) {
+    background-color: gray;
+}
+li a.active {
+    background-color:deepskyblue;
+}
