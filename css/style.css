@@ -41,6 +41,7 @@ a {
 }
 ul {
     list-style-type: none;
+    top: 0;
     padding: 0;
     position: sticky;
     text-decoration: none;
